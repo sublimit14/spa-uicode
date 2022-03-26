@@ -1,0 +1,61 @@
+@import "src/scss/vars";
+
+.mainSlide {
+  background-color: #F3F3F3;
+  box-shadow: 17px 20px 49px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
+
+  display: flex;
+  height: 460px;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  @mixin text {
+    opacity: .8;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+  }
+
+  .left {
+    margin-left: 130px;
+    margin-right: 40px;
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .leftUpper {
+      margin-bottom: 20px;
+    }
+    .leftBottom {
+      .link {
+        @include text;
+      }
+    }
+
+
+    span {
+      color: $subTitleColor;
+      @include text;
+    }
+
+    h3{
+      margin-top: 10px;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 130%;
+    }
+
+    p {
+      margin-top: 15px;
+      @include text;
+    }
+
+  }
+  .right {
+    background-color: #E9EDF9;
+    width: 50%;
+    height: 100%;
+  }
+}

@@ -19,31 +19,31 @@ export const app_routes = [
     {
         name: 'Главная страница',
         path: MAIN_PAGE_ROUTE,
-        Component: <MainPage />
+        Component: <MainPage/>
     },
     {
         name: 'Аутентификация',
         path: LOGIN_PAGE_ROUTE,
-        Component: <LoginPage />
+        Component: <LoginPage/>
     },
     {
         name: 'О нас',
         path: ABOUT_PAGE_ROUTE,
-        Component: <AboutPage />
+        Component: <AboutPage/>
     },
     {
         name: 'Услуги',
         path: SERVICES_PAGE_ROUTE,
-        Component: <ServicesPage />
+        Component: <ServicesPage/>
     },
     {
         name: 'Наши работы',
         path: CASES_PAGE_ROUTE,
-        Component: <CasesPage />
+        Component: <CasesPage/>
     },
     {
         name: 'Контакты',
         path: CONTACTS_PAGE_ROUTE,
-        Component: <ContactsPage />
+        Component: <ContactsPage/>
     }
 ]
